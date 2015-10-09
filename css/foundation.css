@@ -2015,7 +2015,6 @@ a {
   color: #F1EBEB;
   
 }
-
 .rw-words-1 span:nth-child(4) { 
     -webkit-animation-delay: 7s; 
   -moz-animation-delay: 7s; 
@@ -2026,25 +2025,6 @@ a {
   
 }
 
-.rw-words-1 span:nth-child(5) {
-    -webkit-animation-delay: 7s;
-  -moz-animation-delay: 7s;
-  -o-animation-delay: 7s;
-  -ms-animation-delay: 7s;
-  animation-delay: 7s;
-  color: #F1EBEB;
-
-}
-
-.rw-words-1 span:nth-child(6) {
-    -webkit-animation-delay: 7s;
-  -moz-animation-delay: 7s;
-  -o-animation-delay: 7s;
-  -ms-animation-delay: 7s;
-  animation-delay: 7s;
-  color: #F1EBEB;
-
-}
 @-webkit-keyframes rotateWord {
     0% { opacity: 0; }
     2% { opacity: 0; -webkit-transform: translateY(-20px); }
