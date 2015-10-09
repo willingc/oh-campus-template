@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>OpenHatch at $SCHOOL | Open Source Comes To Campus</title>
+    <title>OpenHatch at Open Source Day | Open Source Comes To GHC</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/animate.min.css" />
     <script src="js/vendor/modernizr.js">
@@ -16,13 +16,13 @@
     <div class = "row">
    
     <div class="small-4-centered large-12-centered columns blue" >
-        <h4>$DATE</h4>
-        <h4 style = "font-family:'Open Sans'; font-weight: 400; ">$HOST Presents</h4>
+        <h4>October 14, 2015</h4>
+        <h4 style = "font-family:'Open Sans'; font-weight: 400; ">GHC Presents</h4>
         <h1>OPENHATCH</h1>
-        <h2>@ $SCHOOL</h2>
+        <h2>@ Open Source Day</h2>
         <h4 style = "margin-top: 20px; color: #24C0EB;">Join us!</h4> 
-        <div class= "btn2" style = "margin-top: 50px; margin-right:20px;"><a href = "" style = "text-decoration: none; font-weight: 400; font-family: 'Open Sans';">Sign Up to Attend</a></div>
-        <div class= "btn2" style = "margin-top: 50px; margin-right:20px;"><a href = "" style = "text-decoration: none; font-weight: 400; font-family: 'Open Sans';">Volunteer As a Mentor</a></div>
+        <div class= "btn2" style = "margin-top: 50px; margin-right:20px;"><a href = "" style = "text-decoration: none; font-weight: 400; font-family: 'Open Sans';">Attendees</a></div>
+        <div class= "btn2" style = "margin-top: 50px; margin-right:20px;"><a href = "" style = "text-decoration: none; font-weight: 400; font-family: 'Open Sans';">Mentors</a></div>
         <div class= "btn2" style = "margin-top: 50px;"><a href = "https://openhatch.org/wiki/OpenHatch_event_code_of_conduct" style = "text-decoration: none; font-weight: 400; font-family: 'Open Sans';">Code of Conduct</a></div>
         
         
@@ -75,7 +75,7 @@ window.onscroll = function() {
       <h2>The Background</h2>
         <p>
           Students like you around the world are gaining
-          valuable experience, connections, and skills by coding, testing, and writing for free software projects like Firefox, WordPress, Wikipedia's backendcode, and SAGE.
+          valuable experience, connections, and skills by coding, testing, and writing for free software projects like Firefox, WordPress, Wikipedia's backend code, and SAGE.
         </p>
         <p>
           You do <em>not</em> need to know how to program to
@@ -89,8 +89,8 @@ window.onscroll = function() {
       </div>
       <div class = "large-8 columns day-text">
       
-        <h2>The Events</h2>
-        <p>This is a day-long immersion event that will take place on $DATE at $SCHOOL. The curriculum is designed by OpenHatch, a non-profit dedicated to helping people get involved in open source.</p>
+        <h2>The Event</h2>
+        <p>This is a workshop event that will take place on Wednesday, October 14 at GHC 2015. The curriculum is designed by OpenHatch, a non-profit dedicated to helping people get involved in open source.</p>
  
       </div>
       <div class = "small-1 large-2 columns day-text">
@@ -146,7 +146,8 @@ window.onscroll = function() {
     <div class = "row" style = "height: 600px; width: 100%; margin-bottom: 8%;">
   
         <h2 id = "location-txt" style = "text-align: center; color: #24C0EB; font-weight:700; font-family: 'Open Sans';">Join Us Here</h2>
-        <p style = "text-align: center; color: #222s; font-family: 'Droid Serif'; font-weight:700;">$LOCATION</p>
+        <p style = "text-align: center; color: #222s; font-family: 'Droid Serif'; font-weight:700;">George R. Brown Convention Center</p>
+        <p style = "text-align: center; color: #222s; font-family: 'Droid Serif'; font-weight:300;">Houston, TX</p>
         <div id = "map"></div>  <!-- map should be changed below -->
     
     </div>
@@ -192,15 +193,15 @@ window.onscroll = function() {
   $(document).foundation();
 </script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhtOkghucAytuj81EeMb7ePhMtxgdqbC4&sensor=false&extension=.js"></script> 
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhtOkghucAytuj81EeMb7ePhMtxgdqbC4&sensor=false&extension=.js"></script>
 <script> google.maps.event.addDomListener(window, 'load', init);
 
 var map;
 
 function init() {
     var mapOptions = {
-        center: new google.maps.LatLng(38.537019,-121.754811),
-        zoom: 15,
+        center: new google.maps.LatLng(29.7521655,-95.3578089),
+        zoom: 16,
         zoomControl: true,
         zoomControlOptions: {
             style:google.maps.ZoomControlStyle.DEFAULT,
@@ -226,7 +227,7 @@ function init() {
     var mapElement = document.getElementById('map');
     var map = new google.maps.Map(mapElement, mapOptions);
     var locations = [
-        ['Kemper Hall', 38.5370187, -121.7548109]
+        ['George R. Brown Convention Center', 29.7521655, -95.3578089]
     ];
 
     for (i = 0; i < locations.length; i++) {
